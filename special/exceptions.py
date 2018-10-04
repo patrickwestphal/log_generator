@@ -1,0 +1,2 @@
+class PolicyAspectCannotBeViolatedException(Exception):
+    pass
