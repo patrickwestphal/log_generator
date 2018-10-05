@@ -105,3 +105,7 @@ venv.bak/
 
 # editor / IDE tmp files
 *.swp
+
+# any data files
+*.ttl
+*.nt
