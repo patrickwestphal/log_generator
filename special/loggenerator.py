@@ -307,7 +307,7 @@ if __name__ == '__main__':
     argparser = argparse.ArgumentParser()
     argparser.add_argument('num_users', type=int)
     argparser.add_argument('log_size', type=int)
-    argparser.add_argument('percentage_of_violations_per_user', type=int)
+    argparser.add_argument('percentage_of_violations_per_user', type=float)
     argparser.add_argument('consent_output_file')
     argparser.add_argument('log_output_file')
     argparser.add_argument('--num_policy_aspects', type=int)
