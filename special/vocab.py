@@ -189,6 +189,15 @@ recipient_classes = [
 Any_Storage = \
     URIRef('http://www.specialprivacy.eu/langs/usage-policy#AnyStorage')
 
+# --
+aspect_classes = {
+    has_data: data_classes,
+    has_storage: location_classes,
+    has_location: location_classes,
+    has_processing: processing_classes,
+    has_purpose: purpose_classes,
+    has_recipient: recipient_classes
+}
 
 subclasses = {
     Any_Data: [
